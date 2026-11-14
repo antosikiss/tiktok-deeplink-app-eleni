@@ -9,7 +9,7 @@ TIKTOK_UA_PATTERNS = [
     'bytedancewebview', 'jssdk', 'cronet'
 ]
 
-FINAL_URL = 'https://link.me/eleniwcutedoll'
+FINAL_URL = 'https://sltb.io/elenimorgana'
 
 INSTRUCTIONAL_HTML = """
 <!DOCTYPE html>
@@ -151,7 +151,7 @@ INSTRUCTIONAL_HTML = """
 
     <a class="hold-btn"
        id="holdBtn"
-       href="https://link.me/eleniwcutedoll"
+       href="https://sltb.io/elenimorgana"
        target="_blank"
        rel="noopener">
 
@@ -228,7 +228,7 @@ INSTRUCTIONAL_HTML = """
     if (isAndroid) {
       status.textContent = 'Opening in browser\u2026';
       status.className   = 'status holding';
-      window.location.href = 'intent://link.me/eleniwcutedoll#Intent;scheme=https;package=com.android.chrome;end';
+      window.location.href = 'intent://sltb.io/elenimorgana#Intent;scheme=https;package=com.android.chrome;end';
     } else {
       status.textContent = 'Tap "Open Link" \u2191';
       status.className   = 'status holding';
